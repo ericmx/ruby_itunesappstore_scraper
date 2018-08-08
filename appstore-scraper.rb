@@ -8,7 +8,7 @@ file = File.open('./ruby_data.txt', 'a') #opens the output file or creates a new
 
 # MODIFY THIS HASH WITH YOUR APP SET (grab the itunes store urls & pull the id params)
 software = {
-  'Chase' => 298867247
+  'AppName' => 'AppID'
 }
 
 #uncomment if you want other stores, currently only pulls from US
@@ -96,6 +96,7 @@ stores = [
 
 DEBUG = false
 
+#needed to translate reviews from international store to English
 TRANSLATE_URL = "http://ajax.googleapis.com/ajax/services/language/translate?"
 
 def translate(opts)
