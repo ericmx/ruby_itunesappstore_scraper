@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-#command line arguments but for some reason they didn't work?
+#command line arguments but for some reason they didn't work?tt
 # my $inputFile = $ARGV[0];
 # my $outputFile = $ARGV[1];
 my $inputFile = "app_review.txt";
