@@ -10,7 +10,7 @@ dfReview.columns = ['review']
 dfReview.head()
 dfRating.head()
 
-dfReview = dfReviewhmm.apply(lambda x: x.astype(str).str.lower())
+dfReview = dfReview.apply(lambda x: x.astype(str).str.lower())
 dfReview = dfReview.replace('\d+', '', regex = True)
 dfReview = dfReview.replace('[^\w\s\+]', '', regex = True)
 
